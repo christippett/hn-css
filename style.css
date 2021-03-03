@@ -1,0 +1,139 @@
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+span,
+a:link {
+  color: #656565;
+}
+body {
+  padding: 20px 40px;
+}
+body > center > table {
+  border-radius: 5px;
+  overflow-x: hidden;
+}
+td,
+.comment,
+.c00 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+  color: rgb(120, 125, 140) !important;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.4;
+}
+br {
+  padding: 0;
+}
+.default {
+  border-top: 1px solid rgba(120, 125, 140, 0.1);
+}
+html[op="item"] td {
+  padding-top: 10px !important;
+}
+.comhead a:link,
+.comhead span,
+.score {
+  font-size: 1.05em;
+  color: #e7942c !important;
+}
+.score,
+.hnuser {
+  font-weight: 600;
+  font-size: 12px !important;
+}
+html[op="item"] .subtext {
+  font-size: 11px !important;
+  display: block;
+  margin-bottom: 10px;
+  color: rgba(120, 125, 140, 0.75) !important;
+  border-bottom: 1px solid rgba(120, 125, 140, 0.1);
+}
+.hnuser {
+  font-weight: 600;
+}
+form,
+div.reply {
+  display: none;
+}
+.pagetop,
+.pagetop a,
+.pagetop a:visited {
+  color: rgb(240, 240, 240);
+  padding: 5px;
+}
+table#hnmain {
+  background: rgb(251, 251, 251);
+  position: relative;
+  border: 1px solid rgb(244, 244, 244);
+  border-top: 0;
+  max-width: 900px;
+}
+table#hnmain table {
+  margin: 0 2px;
+}
+table#hnmain tr:first-child > td {
+  padding: 5px;
+}
+table#hnmain tr:nth-child(3) > td {
+  padding: 20px 10% 0 0;
+}
+table#hnmain > tbody > tr:last-child table {
+  padding: 0;
+  margin: 0;
+}
+.c00 a:link {
+  color: rgb(82, 134, 181);
+  text-decoration: underline;
+}
+.reply {
+  visibility: hidden;
+}
+
+table.itemlist {
+  padding-left: 20px;
+}
+
+tr.spacer {
+  height: 15px !important;
+}
+
+br:first-of-type + br {
+  display: none;
+}
+html[op="news"] td.title,
+html[op="news"] td.title > *:not(.sitebit) {
+  font-weight: 500;
+  padding: 0 0 3px;
+  color: rgb(120, 125, 140);
+  font-size: 16px;
+}
+html[op="item"] td.title {
+  font-size: 1.4rem !important;
+  font-weight: 500;
+  text-align: left;
+  padding-bottom: 1rem;
+  display: block;
+  font-family: Georgia !important;
+  font-style: italic;
+  max-width: 40ch;
+}
+html[op="item"] td.title > a {
+  display: block;
+}
+td.title > span.rank {
+  color: rgb(217, 217, 217) !important;
+  font-weight: 400 !important;
+  display: block;
+}
+td.title .sitebit {
+  font-weight: normal;
+}
+td.subtext {
+  font-size: 0.7rem;
+}
+td.votelinks {
+  visibility: hidden;
+}
